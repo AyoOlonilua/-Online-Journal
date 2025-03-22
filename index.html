@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Online Journal</title>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="journal-container">
+    <h2>My Interactive Journal</h2>
+    <label for="journal-entry">Write your thoughts:</label>
+    <textarea id="journal-entry" placeholder="Start journaling..."></textarea>
+    <button onclick="saveEntry()">Save Entry</button>
+    <div class="entries" id="entries"></div>
+</div>
+    
+</body>
+</html>
