@@ -1,4 +1,4 @@
-# Online=Journal
+# Online Journal
 By AYO-OLONILUA AYOMIPE
 
 # TECHNOLOGIES USED
